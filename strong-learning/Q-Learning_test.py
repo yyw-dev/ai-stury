@@ -10,7 +10,7 @@ EPSILON = 0.9 #greedy police
 ALPHA = 0.1 #learning rate
 LAMBDA = 0.9 # discount factor
 MAX_EPISODES = 13 #maximum episodes
-FRESH_TIME = 0.1 #fresh time for one move
+FRESH_TIME = 0.01 #fresh time for one move
 
 def build_q_table(n_status,actions):
         table =pd.DataFrame(
